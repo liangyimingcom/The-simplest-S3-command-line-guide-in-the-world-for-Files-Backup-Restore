@@ -8,7 +8,7 @@
 
 ![image-20210511104150604](https://raw.githubusercontent.com/liangyimingcom/storage/master/uPic/image-20210511104150604.png)
 
-**一条****AWS CLI** **命令行完成** **备份**
+**一条AWS CLI命令行完成备份**
 
 $ aws s3 sync /backups s3://mybucket
 
@@ -32,9 +32,9 @@ $ aws s3 sync /backups s3://mybucket --delete --storage-class STANDARD_IA
 
 ![image-20210511104253691](https://raw.githubusercontent.com/liangyimingcom/storage/master/uPic/image-20210511104253691.png)
 
-**一条****AWS CLI** **命令行完成** **还原**
+**一条AWS CLI命令行完成还原**
 
-**到****本地数据中心****或者** **AWS****的****EC2****上**
+**到本地数据中心或者AWS的EC2上**
 
 $ aws s3 sync s3://mybucket /backups
 
