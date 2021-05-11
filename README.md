@@ -48,7 +48,9 @@ $ aws s3 sync s3://mybucket /backups --delete
 
 ## (3) 前提条件
 
-1、https://aws.amazon.com/cn/cli/看这个教程，安装AWS CLI后，运行命令就可以用S3了
+1、https://aws.amazon.com/cn/cli/
+
+  看这个教程，安装AWS CLI后，运行命令就可以用S3了
 
 2、完整的awscli s3 命令行看这里：https://docs.amazonaws.cn/cli/latest/userguide/cli-services-s3-commands.html
 
