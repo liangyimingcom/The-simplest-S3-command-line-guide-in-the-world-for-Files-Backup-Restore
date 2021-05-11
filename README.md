@@ -32,9 +32,7 @@ $ aws s3 sync /backups s3://mybucket --delete --storage-class STANDARD_IA
 
 ![image-20210511104253691](https://raw.githubusercontent.com/liangyimingcom/storage/master/uPic/image-20210511104253691.png)
 
-**一条AWS CLI命令行完成还原**
-
-**到本地数据中心或者AWS的EC2上**
+**一条AWS CLI命令行完成还原到本地数据中心或者AWS的EC2上**
 
 $ aws s3 sync s3://mybucket /backups
 
